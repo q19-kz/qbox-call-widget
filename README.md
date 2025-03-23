@@ -1,4 +1,4 @@
-# qbox-widget-video-call
+# qbox-call-widget
 
 # Шаг 1. Добавление виджета (frontend)
 
