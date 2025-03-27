@@ -31,6 +31,8 @@ JSON Body:
 }
 ```
 
+* first_name, last_name, iin, phone являются обязательными параметрами, остальные опциональные
+
 ### Response:
 
 JSON Body:
