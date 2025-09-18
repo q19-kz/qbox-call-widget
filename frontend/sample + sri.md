@@ -65,7 +65,14 @@
     // videoCallElem.setAttribute("is-attachment-button-hidden", 0);  // Показать/скрыть кнопку "скрепки" для прикрепления медиафайлов (0 = показать, 1 = скрыть; по умолчанию = 0)
     // videoCallElem.setAttribute("request-call-feedback", 0);  // Запрос отзыва о звонке после завершения (0 = не спрашивать, 1 = спросить; по умолчанию = 1)
     // videoCallElem.setAttribute("end-screen-new-call-button", 0);  // Показ кнопки "Новый звонок" на странице завершенного звонка (0 = скрыть, 1 = показать; по умолчанию = 0)
-    
+
+    // Слушатель событий
+    // videoCallElem.addEventListener("wc", (event) => {
+    //   if (event.detail && event.detail.length) {
+    //     console.log("event", event.detail[0])
+    //   }
+    // });
+
     document.getElementById("video-call-wrapper").appendChild(videoCallElem);
   </script>  
   
